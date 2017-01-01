@@ -19,11 +19,29 @@ public struct Path {
 public extension Path {
   static private let fileManager = FileManager.default
 
+  var currentDirectory: String {
+    return Path.fileManager.currentDirectoryPath
+  }
+
   public var isRelativeFromHomeDirectory: Bool {
     return path.hasPrefix("~/")
   }
 
-  public var isRelateiveFromCurrentDirectory: Bool {
+  public var isRelativeFromCurrentDirectory: Bool {
     return path.hasPrefix(".")
+  }
+
+  public var absolute: String {
+    if isRelativeFromHomeDirectory {
+      let str = NSString(string: path)
+
+      return str.abbreviatingWithTildeInPath
+    } else if isRelativeFromCurrentDirectory {
+      let str =  NSString(string: "\(currentDirectory)/\(path)")
+
+      return str.standardizingPath
+    } else {
+      return path
+    }
   }
 }
