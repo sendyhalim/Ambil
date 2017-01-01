@@ -7,109 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_101 /* ArgumentConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* ArgumentConvertible.swift */; };
-		OBJ_102 /* ArgumentDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ArgumentDescription.swift */; };
-		OBJ_103 /* ArgumentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ArgumentParser.swift */; };
-		OBJ_104 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Command.swift */; };
-		OBJ_105 /* CommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* CommandRunner.swift */; };
-		OBJ_106 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Commands.swift */; };
-		OBJ_107 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* CommandType.swift */; };
-		OBJ_108 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Error.swift */; };
-		OBJ_109 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Group.swift */; };
-		OBJ_111 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Spectre.framework */; };
-		OBJ_118 /* ConfigReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* ConfigReader.swift */; };
-		OBJ_119 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Downloader.swift */; };
-		OBJ_120 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* main.swift */; };
-		OBJ_122 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Alamofire.framework */; };
-		OBJ_123 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Spectre.framework */; };
-		OBJ_124 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Commander.framework */; };
-		OBJ_133 /* PathSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* PathSpec.swift */; };
-		OBJ_134 /* XCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* XCTest.swift */; };
-		OBJ_136 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Alamofire.framework */; };
-		OBJ_137 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Spectre.framework */; };
-		OBJ_138 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Commander.framework */; };
-		OBJ_64 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AFError.swift */; };
-		OBJ_65 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Alamofire.swift */; };
-		OBJ_66 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* DispatchQueue+Alamofire.swift */; };
-		OBJ_67 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* MultipartFormData.swift */; };
-		OBJ_68 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* NetworkReachabilityManager.swift */; };
-		OBJ_69 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Notifications.swift */; };
-		OBJ_70 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* ParameterEncoding.swift */; };
-		OBJ_71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Request.swift */; };
-		OBJ_72 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Response.swift */; };
-		OBJ_73 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ResponseSerialization.swift */; };
-		OBJ_74 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Result.swift */; };
-		OBJ_75 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* ServerTrustPolicy.swift */; };
-		OBJ_76 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* SessionDelegate.swift */; };
-		OBJ_77 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* SessionManager.swift */; };
-		OBJ_78 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* TaskDelegate.swift */; };
-		OBJ_79 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Timeline.swift */; };
-		OBJ_80 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Validation.swift */; };
-		OBJ_87 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Case.swift */; };
-		OBJ_88 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Context.swift */; };
-		OBJ_89 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Expectation.swift */; };
-		OBJ_90 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Failure.swift */; };
-		OBJ_91 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Global.swift */; };
-		OBJ_92 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* GlobalContext.swift */; };
-		OBJ_93 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Reporter.swift */; };
-		OBJ_94 /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Reporters.swift */; };
+		79B1D2FB1E1808FE0052A502 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Path.swift */; };
+		OBJ_102 /* ArgumentConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* ArgumentConvertible.swift */; };
+		OBJ_103 /* ArgumentDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ArgumentDescription.swift */; };
+		OBJ_104 /* ArgumentParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* ArgumentParser.swift */; };
+		OBJ_105 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Command.swift */; };
+		OBJ_106 /* CommandRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* CommandRunner.swift */; };
+		OBJ_107 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Commands.swift */; };
+		OBJ_108 /* CommandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* CommandType.swift */; };
+		OBJ_109 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Error.swift */; };
+		OBJ_110 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Group.swift */; };
+		OBJ_112 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Spectre.framework */; };
+		OBJ_119 /* ConfigReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* ConfigReader.swift */; };
+		OBJ_120 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Downloader.swift */; };
+		OBJ_121 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* main.swift */; };
+		OBJ_122 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Path.swift */; };
+		OBJ_124 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Alamofire.framework */; };
+		OBJ_125 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Spectre.framework */; };
+		OBJ_126 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Commander.framework */; };
+		OBJ_135 /* PathSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* PathSpec.swift */; };
+		OBJ_136 /* XCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* XCTest.swift */; };
+		OBJ_138 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* Alamofire.framework */; };
+		OBJ_139 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Spectre.framework */; };
+		OBJ_140 /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* Commander.framework */; };
+		OBJ_65 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* AFError.swift */; };
+		OBJ_66 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Alamofire.swift */; };
+		OBJ_67 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* DispatchQueue+Alamofire.swift */; };
+		OBJ_68 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* MultipartFormData.swift */; };
+		OBJ_69 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* NetworkReachabilityManager.swift */; };
+		OBJ_70 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Notifications.swift */; };
+		OBJ_71 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* ParameterEncoding.swift */; };
+		OBJ_72 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Request.swift */; };
+		OBJ_73 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Response.swift */; };
+		OBJ_74 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ResponseSerialization.swift */; };
+		OBJ_75 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Result.swift */; };
+		OBJ_76 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* ServerTrustPolicy.swift */; };
+		OBJ_77 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* SessionDelegate.swift */; };
+		OBJ_78 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* SessionManager.swift */; };
+		OBJ_79 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* TaskDelegate.swift */; };
+		OBJ_80 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Timeline.swift */; };
+		OBJ_81 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Validation.swift */; };
+		OBJ_88 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Case.swift */; };
+		OBJ_89 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Context.swift */; };
+		OBJ_90 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Expectation.swift */; };
+		OBJ_91 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Failure.swift */; };
+		OBJ_92 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Global.swift */; };
+		OBJ_93 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* GlobalContext.swift */; };
+		OBJ_94 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Reporter.swift */; };
+		OBJ_95 /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Reporters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		79B1D2D71E18032F0052A502 /* PBXContainerItemProxy */ = {
+		79B1D2F11E1806030052A502 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_82;
+			remoteGlobalIDString = OBJ_83;
 			remoteInfo = Spectre;
 		};
-		79B1D2D81E18032F0052A502 /* PBXContainerItemProxy */ = {
+		79B1D2F21E1806030052A502 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_59;
+			remoteGlobalIDString = OBJ_60;
 			remoteInfo = Alamofire;
 		};
-		79B1D2D91E18032F0052A502 /* PBXContainerItemProxy */ = {
+		79B1D2F31E1806030052A502 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_82;
+			remoteGlobalIDString = OBJ_83;
 			remoteInfo = Spectre;
 		};
-		79B1D2DA1E18032F0052A502 /* PBXContainerItemProxy */ = {
+		79B1D2F41E1806030052A502 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_96;
+			remoteGlobalIDString = OBJ_97;
 			remoteInfo = Commander;
 		};
-		79B1D2DB1E18032F0052A502 /* PBXContainerItemProxy */ = {
+		79B1D2F51E1806030052A502 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_59;
+			remoteGlobalIDString = OBJ_60;
 			remoteInfo = Alamofire;
 		};
-		79B1D2DC1E18032F0052A502 /* PBXContainerItemProxy */ = {
+		79B1D2F61E1806030052A502 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_82;
+			remoteGlobalIDString = OBJ_83;
 			remoteInfo = Spectre;
 		};
-		79B1D2DD1E18032F0052A502 /* PBXContainerItemProxy */ = {
+		79B1D2F71E1806030052A502 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_96;
+			remoteGlobalIDString = OBJ_97;
 			remoteInfo = Commander;
 		};
-		79B1D2DE1E18032F0052A502 /* PBXContainerItemProxy */ = {
+		79B1D2F81E1806030052A502 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_113;
+			remoteGlobalIDString = OBJ_114;
 			remoteInfo = Ambil;
 		};
 /* End PBXContainerItemProxy section */
@@ -151,54 +153,55 @@
 		OBJ_46 /* ConfigReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigReader.swift; sourceTree = "<group>"; };
 		OBJ_47 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 		OBJ_48 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		OBJ_51 /* PathSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSpec.swift; sourceTree = "<group>"; };
-		OBJ_52 /* XCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTest.swift; sourceTree = "<group>"; };
-		OBJ_54 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_55 /* Spectre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Spectre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_56 /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_57 /* Ambil */ = {isa = PBXFileReference; lastKnownFileType = text; path = Ambil; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_58 /* AmbilTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AmbilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_49 /* Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		OBJ_52 /* PathSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSpec.swift; sourceTree = "<group>"; };
+		OBJ_53 /* XCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTest.swift; sourceTree = "<group>"; };
+		OBJ_55 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_56 /* Spectre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Spectre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_57 /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_58 /* Ambil */ = {isa = PBXFileReference; lastKnownFileType = text; path = Ambil; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_59 /* AmbilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = AmbilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_110 /* Frameworks */ = {
+		OBJ_111 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_111 /* Spectre.framework in Frameworks */,
+				OBJ_112 /* Spectre.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_121 /* Frameworks */ = {
+		OBJ_123 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_122 /* Alamofire.framework in Frameworks */,
-				OBJ_123 /* Spectre.framework in Frameworks */,
-				OBJ_124 /* Commander.framework in Frameworks */,
+				OBJ_124 /* Alamofire.framework in Frameworks */,
+				OBJ_125 /* Spectre.framework in Frameworks */,
+				OBJ_126 /* Commander.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_135 /* Frameworks */ = {
+		OBJ_137 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_136 /* Alamofire.framework in Frameworks */,
-				OBJ_137 /* Spectre.framework in Frameworks */,
-				OBJ_138 /* Commander.framework in Frameworks */,
+				OBJ_138 /* Alamofire.framework in Frameworks */,
+				OBJ_139 /* Spectre.framework in Frameworks */,
+				OBJ_140 /* Commander.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_81 /* Frameworks */ = {
+		OBJ_82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_95 /* Frameworks */ = {
+		OBJ_96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -247,48 +250,49 @@
 				OBJ_46 /* ConfigReader.swift */,
 				OBJ_47 /* Downloader.swift */,
 				OBJ_48 /* main.swift */,
+				OBJ_49 /* Path.swift */,
 			);
 			name = Ambil;
 			path = Sources/Ambil;
 			sourceTree = SOURCE_ROOT;
-		};
-		OBJ_49 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_50 /* AmbilTests */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
 		};
 		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_49 /* Tests */,
-				OBJ_53 /* Products */,
+				OBJ_50 /* Tests */,
+				OBJ_54 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
 		};
-		OBJ_50 /* AmbilTests */ = {
+		OBJ_50 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_51 /* PathSpec.swift */,
-				OBJ_52 /* XCTest.swift */,
+				OBJ_51 /* AmbilTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		OBJ_51 /* AmbilTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_52 /* PathSpec.swift */,
+				OBJ_53 /* XCTest.swift */,
 			);
 			name = AmbilTests;
 			path = Tests/AmbilTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_53 /* Products */ = {
+		OBJ_54 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_54 /* Alamofire.framework */,
-				OBJ_55 /* Spectre.framework */,
-				OBJ_56 /* Commander.framework */,
-				OBJ_57 /* Ambil */,
-				OBJ_58 /* AmbilTests.xctest */,
+				OBJ_55 /* Alamofire.framework */,
+				OBJ_56 /* Spectre.framework */,
+				OBJ_57 /* Commander.framework */,
+				OBJ_58 /* Ambil */,
+				OBJ_59 /* AmbilTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -332,51 +336,51 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_113 /* Ambil */ = {
+		OBJ_114 /* Ambil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_114 /* Build configuration list for PBXNativeTarget "Ambil" */;
+			buildConfigurationList = OBJ_115 /* Build configuration list for PBXNativeTarget "Ambil" */;
 			buildPhases = (
-				OBJ_117 /* Sources */,
-				OBJ_121 /* Frameworks */,
+				OBJ_118 /* Sources */,
+				OBJ_123 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_125 /* PBXTargetDependency */,
-				OBJ_126 /* PBXTargetDependency */,
 				OBJ_127 /* PBXTargetDependency */,
+				OBJ_128 /* PBXTargetDependency */,
+				OBJ_129 /* PBXTargetDependency */,
 			);
 			name = Ambil;
 			productName = Ambil;
-			productReference = OBJ_57 /* Ambil */;
+			productReference = OBJ_58 /* Ambil */;
 			productType = "com.apple.product-type.tool";
 		};
-		OBJ_128 /* AmbilTests */ = {
+		OBJ_130 /* AmbilTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_129 /* Build configuration list for PBXNativeTarget "AmbilTests" */;
+			buildConfigurationList = OBJ_131 /* Build configuration list for PBXNativeTarget "AmbilTests" */;
 			buildPhases = (
-				OBJ_132 /* Sources */,
-				OBJ_135 /* Frameworks */,
+				OBJ_134 /* Sources */,
+				OBJ_137 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_139 /* PBXTargetDependency */,
-				OBJ_140 /* PBXTargetDependency */,
 				OBJ_141 /* PBXTargetDependency */,
 				OBJ_142 /* PBXTargetDependency */,
+				OBJ_143 /* PBXTargetDependency */,
+				OBJ_144 /* PBXTargetDependency */,
 			);
 			name = AmbilTests;
 			productName = AmbilTests;
-			productReference = OBJ_58 /* AmbilTests.xctest */;
+			productReference = OBJ_59 /* AmbilTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		OBJ_59 /* Alamofire */ = {
+		OBJ_60 /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_60 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildConfigurationList = OBJ_61 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				OBJ_63 /* Sources */,
-				OBJ_81 /* Frameworks */,
+				OBJ_64 /* Sources */,
+				OBJ_82 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -384,15 +388,15 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = OBJ_54 /* Alamofire.framework */;
+			productReference = OBJ_55 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_82 /* Spectre */ = {
+		OBJ_83 /* Spectre */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_83 /* Build configuration list for PBXNativeTarget "Spectre" */;
+			buildConfigurationList = OBJ_84 /* Build configuration list for PBXNativeTarget "Spectre" */;
 			buildPhases = (
-				OBJ_86 /* Sources */,
-				OBJ_95 /* Frameworks */,
+				OBJ_87 /* Sources */,
+				OBJ_96 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -400,24 +404,24 @@
 			);
 			name = Spectre;
 			productName = Spectre;
-			productReference = OBJ_55 /* Spectre.framework */;
+			productReference = OBJ_56 /* Spectre.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_96 /* Commander */ = {
+		OBJ_97 /* Commander */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_97 /* Build configuration list for PBXNativeTarget "Commander" */;
+			buildConfigurationList = OBJ_98 /* Build configuration list for PBXNativeTarget "Commander" */;
 			buildPhases = (
-				OBJ_100 /* Sources */,
-				OBJ_110 /* Frameworks */,
+				OBJ_101 /* Sources */,
+				OBJ_111 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_112 /* PBXTargetDependency */,
+				OBJ_113 /* PBXTargetDependency */,
 			);
 			name = Commander;
 			productName = Commander;
-			productReference = OBJ_56 /* Commander.framework */;
+			productReference = OBJ_57 /* Commander.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -436,141 +440,163 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_53 /* Products */;
+			productRefGroup = OBJ_54 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_59 /* Alamofire */,
-				OBJ_82 /* Spectre */,
-				OBJ_96 /* Commander */,
-				OBJ_113 /* Ambil */,
-				OBJ_128 /* AmbilTests */,
+				OBJ_60 /* Alamofire */,
+				OBJ_83 /* Spectre */,
+				OBJ_97 /* Commander */,
+				OBJ_114 /* Ambil */,
+				OBJ_130 /* AmbilTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_100 /* Sources */ = {
+		OBJ_101 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_101 /* ArgumentConvertible.swift in Sources */,
-				OBJ_102 /* ArgumentDescription.swift in Sources */,
-				OBJ_103 /* ArgumentParser.swift in Sources */,
-				OBJ_104 /* Command.swift in Sources */,
-				OBJ_105 /* CommandRunner.swift in Sources */,
-				OBJ_106 /* Commands.swift in Sources */,
-				OBJ_107 /* CommandType.swift in Sources */,
-				OBJ_108 /* Error.swift in Sources */,
-				OBJ_109 /* Group.swift in Sources */,
+				OBJ_102 /* ArgumentConvertible.swift in Sources */,
+				OBJ_103 /* ArgumentDescription.swift in Sources */,
+				OBJ_104 /* ArgumentParser.swift in Sources */,
+				OBJ_105 /* Command.swift in Sources */,
+				OBJ_106 /* CommandRunner.swift in Sources */,
+				OBJ_107 /* Commands.swift in Sources */,
+				OBJ_108 /* CommandType.swift in Sources */,
+				OBJ_109 /* Error.swift in Sources */,
+				OBJ_110 /* Group.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_117 /* Sources */ = {
+		OBJ_118 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_118 /* ConfigReader.swift in Sources */,
-				OBJ_119 /* Downloader.swift in Sources */,
-				OBJ_120 /* main.swift in Sources */,
+				OBJ_119 /* ConfigReader.swift in Sources */,
+				OBJ_120 /* Downloader.swift in Sources */,
+				OBJ_121 /* main.swift in Sources */,
+				OBJ_122 /* Path.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_132 /* Sources */ = {
+		OBJ_134 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_133 /* PathSpec.swift in Sources */,
-				OBJ_134 /* XCTest.swift in Sources */,
+				79B1D2FB1E1808FE0052A502 /* Path.swift in Sources */,
+				OBJ_135 /* PathSpec.swift in Sources */,
+				OBJ_136 /* XCTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_63 /* Sources */ = {
+		OBJ_64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_64 /* AFError.swift in Sources */,
-				OBJ_65 /* Alamofire.swift in Sources */,
-				OBJ_66 /* DispatchQueue+Alamofire.swift in Sources */,
-				OBJ_67 /* MultipartFormData.swift in Sources */,
-				OBJ_68 /* NetworkReachabilityManager.swift in Sources */,
-				OBJ_69 /* Notifications.swift in Sources */,
-				OBJ_70 /* ParameterEncoding.swift in Sources */,
-				OBJ_71 /* Request.swift in Sources */,
-				OBJ_72 /* Response.swift in Sources */,
-				OBJ_73 /* ResponseSerialization.swift in Sources */,
-				OBJ_74 /* Result.swift in Sources */,
-				OBJ_75 /* ServerTrustPolicy.swift in Sources */,
-				OBJ_76 /* SessionDelegate.swift in Sources */,
-				OBJ_77 /* SessionManager.swift in Sources */,
-				OBJ_78 /* TaskDelegate.swift in Sources */,
-				OBJ_79 /* Timeline.swift in Sources */,
-				OBJ_80 /* Validation.swift in Sources */,
+				OBJ_65 /* AFError.swift in Sources */,
+				OBJ_66 /* Alamofire.swift in Sources */,
+				OBJ_67 /* DispatchQueue+Alamofire.swift in Sources */,
+				OBJ_68 /* MultipartFormData.swift in Sources */,
+				OBJ_69 /* NetworkReachabilityManager.swift in Sources */,
+				OBJ_70 /* Notifications.swift in Sources */,
+				OBJ_71 /* ParameterEncoding.swift in Sources */,
+				OBJ_72 /* Request.swift in Sources */,
+				OBJ_73 /* Response.swift in Sources */,
+				OBJ_74 /* ResponseSerialization.swift in Sources */,
+				OBJ_75 /* Result.swift in Sources */,
+				OBJ_76 /* ServerTrustPolicy.swift in Sources */,
+				OBJ_77 /* SessionDelegate.swift in Sources */,
+				OBJ_78 /* SessionManager.swift in Sources */,
+				OBJ_79 /* TaskDelegate.swift in Sources */,
+				OBJ_80 /* Timeline.swift in Sources */,
+				OBJ_81 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_86 /* Sources */ = {
+		OBJ_87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_87 /* Case.swift in Sources */,
-				OBJ_88 /* Context.swift in Sources */,
-				OBJ_89 /* Expectation.swift in Sources */,
-				OBJ_90 /* Failure.swift in Sources */,
-				OBJ_91 /* Global.swift in Sources */,
-				OBJ_92 /* GlobalContext.swift in Sources */,
-				OBJ_93 /* Reporter.swift in Sources */,
-				OBJ_94 /* Reporters.swift in Sources */,
+				OBJ_88 /* Case.swift in Sources */,
+				OBJ_89 /* Context.swift in Sources */,
+				OBJ_90 /* Expectation.swift in Sources */,
+				OBJ_91 /* Failure.swift in Sources */,
+				OBJ_92 /* Global.swift in Sources */,
+				OBJ_93 /* GlobalContext.swift in Sources */,
+				OBJ_94 /* Reporter.swift in Sources */,
+				OBJ_95 /* Reporters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_112 /* PBXTargetDependency */ = {
+		OBJ_113 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_82 /* Spectre */;
-			targetProxy = 79B1D2D71E18032F0052A502 /* PBXContainerItemProxy */;
-		};
-		OBJ_125 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_59 /* Alamofire */;
-			targetProxy = 79B1D2D81E18032F0052A502 /* PBXContainerItemProxy */;
-		};
-		OBJ_126 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = OBJ_82 /* Spectre */;
-			targetProxy = 79B1D2D91E18032F0052A502 /* PBXContainerItemProxy */;
+			target = OBJ_83 /* Spectre */;
+			targetProxy = 79B1D2F11E1806030052A502 /* PBXContainerItemProxy */;
 		};
 		OBJ_127 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_96 /* Commander */;
-			targetProxy = 79B1D2DA1E18032F0052A502 /* PBXContainerItemProxy */;
+			target = OBJ_60 /* Alamofire */;
+			targetProxy = 79B1D2F21E1806030052A502 /* PBXContainerItemProxy */;
 		};
-		OBJ_139 /* PBXTargetDependency */ = {
+		OBJ_128 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_59 /* Alamofire */;
-			targetProxy = 79B1D2DB1E18032F0052A502 /* PBXContainerItemProxy */;
+			target = OBJ_83 /* Spectre */;
+			targetProxy = 79B1D2F31E1806030052A502 /* PBXContainerItemProxy */;
 		};
-		OBJ_140 /* PBXTargetDependency */ = {
+		OBJ_129 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_82 /* Spectre */;
-			targetProxy = 79B1D2DC1E18032F0052A502 /* PBXContainerItemProxy */;
+			target = OBJ_97 /* Commander */;
+			targetProxy = 79B1D2F41E1806030052A502 /* PBXContainerItemProxy */;
 		};
 		OBJ_141 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_96 /* Commander */;
-			targetProxy = 79B1D2DD1E18032F0052A502 /* PBXContainerItemProxy */;
+			target = OBJ_60 /* Alamofire */;
+			targetProxy = 79B1D2F51E1806030052A502 /* PBXContainerItemProxy */;
 		};
 		OBJ_142 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_113 /* Ambil */;
-			targetProxy = 79B1D2DE1E18032F0052A502 /* PBXContainerItemProxy */;
+			target = OBJ_83 /* Spectre */;
+			targetProxy = 79B1D2F61E1806030052A502 /* PBXContainerItemProxy */;
+		};
+		OBJ_143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_97 /* Commander */;
+			targetProxy = 79B1D2F71E1806030052A502 /* PBXContainerItemProxy */;
+		};
+		OBJ_144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_114 /* Ambil */;
+			targetProxy = 79B1D2F81E1806030052A502 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		OBJ_115 /* Debug */ = {
+		OBJ_100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Ambil.xcodeproj/Commander_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Commander;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				TARGET_NAME = Commander;
+			};
+			name = Release;
+		};
+		OBJ_116 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -588,7 +614,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_116 /* Release */ = {
+		OBJ_117 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -606,7 +632,7 @@
 			};
 			name = Release;
 		};
-		OBJ_130 /* Debug */ = {
+		OBJ_132 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -623,7 +649,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_131 /* Release */ = {
+		OBJ_133 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -648,6 +674,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
@@ -669,6 +696,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "-DXcode";
@@ -682,7 +710,7 @@
 			};
 			name = Release;
 		};
-		OBJ_61 /* Debug */ = {
+		OBJ_62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -702,7 +730,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_62 /* Release */ = {
+		OBJ_63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -722,7 +750,7 @@
 			};
 			name = Release;
 		};
-		OBJ_84 /* Debug */ = {
+		OBJ_85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -742,7 +770,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_85 /* Release */ = {
+		OBJ_86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -762,7 +790,7 @@
 			};
 			name = Release;
 		};
-		OBJ_98 /* Debug */ = {
+		OBJ_99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -781,44 +809,24 @@
 				TARGET_NAME = Commander;
 			};
 			name = Debug;
-		};
-		OBJ_99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = Ambil.xcodeproj/Commander_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = Commander;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				TARGET_NAME = Commander;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		OBJ_114 /* Build configuration list for PBXNativeTarget "Ambil" */ = {
+		OBJ_115 /* Build configuration list for PBXNativeTarget "Ambil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_115 /* Debug */,
-				OBJ_116 /* Release */,
+				OBJ_116 /* Debug */,
+				OBJ_117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_129 /* Build configuration list for PBXNativeTarget "AmbilTests" */ = {
+		OBJ_131 /* Build configuration list for PBXNativeTarget "AmbilTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_130 /* Debug */,
-				OBJ_131 /* Release */,
+				OBJ_132 /* Debug */,
+				OBJ_133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -832,29 +840,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_60 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+		OBJ_61 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_61 /* Debug */,
-				OBJ_62 /* Release */,
+				OBJ_62 /* Debug */,
+				OBJ_63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_83 /* Build configuration list for PBXNativeTarget "Spectre" */ = {
+		OBJ_84 /* Build configuration list for PBXNativeTarget "Spectre" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_84 /* Debug */,
-				OBJ_85 /* Release */,
+				OBJ_85 /* Debug */,
+				OBJ_86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_97 /* Build configuration list for PBXNativeTarget "Commander" */ = {
+		OBJ_98 /* Build configuration list for PBXNativeTarget "Commander" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_98 /* Debug */,
-				OBJ_99 /* Release */,
+				OBJ_99 /* Debug */,
+				OBJ_100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
