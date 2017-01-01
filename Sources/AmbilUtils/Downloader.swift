@@ -2,28 +2,32 @@ import Alamofire
 import Foundation
 
 public struct Downloader {
-  static public func download(path: String, to destination: String, done: @escaping () -> ()) {
-    let filename = path
+  static public func download(downloadUrl: String, to destination: String, done: @escaping () -> ()) {
+    let filename = downloadUrl
       .characters
       .split(separator: "/")
       .map(String.init)
       .last!
-    // let path =
-    let targetPath = "file://\(destination)/\(filename)"
+
+    let path = Path("\(destination)/\(filename)")
+    
+    let targetPath = "file://\(path.absolute)"
 
     let destination: DownloadRequest.DownloadFileDestination = { _, _ in
       (URL(string: targetPath)!, [.removePreviousFile, .createIntermediateDirectories])
     }
 
+    let queue = DispatchQueue.global(qos: .default)
     Alamofire
-      .download(path, to: destination)
-      .downloadProgress { progress in
-        print("Download progress: \(progress.fractionCompleted)")
+      .download(downloadUrl, to: destination)
+      .downloadProgress(queue: queue) { progress in
+        let progressString = String(format: "\rDownload progress %.2f%", progress.fractionCompleted * 100)
+        
+        print(progressString, terminator: "")
       }
-      .response { _ in
-        print("Done!")
+      .response(queue: queue) { _ in
+        print("") // Print newline after download is completed
         done()
       }
   }
 }
-

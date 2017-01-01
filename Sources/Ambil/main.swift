@@ -2,21 +2,19 @@ import Commander
 import Foundation
 import AmbilUtils
 
-//let main = command {  (source: String) in
-//  let downloader = Downloader()
-//  print("Downloading \(source)...")
-//
-//  downloader.download(path: source, to: "/Users/sendyhalim/development/code/projects/ambil")
-//}
-//
-//main.run()
+let main = command(
+  Argument<String>("source", description: "Source url", validator: nil),
+  Option<String>("destination", "", description: "Optional destination path")
+) {  (source: String, destination: String) in
+  let sema = DispatchSemaphore(value: 0)
+  print("Downloading \(source)...")
 
-let sema = DispatchSemaphore(value: 0)
-let source = "https://www.google.co.id/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png"
-print("Downloading \(source)...")
+  Downloader.download(downloadUrl: source, to: destination) {
+    sema.signal()
+  }
 
-Downloader.download(path: source, to: "/Users/sendyhalim/development/code/projects/ambil") {
-  sema.signal()
+  sema.wait()
 }
 
-sema.wait()
+main.run()
+
