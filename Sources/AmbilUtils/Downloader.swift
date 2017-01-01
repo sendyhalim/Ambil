@@ -1,8 +1,8 @@
 import Alamofire
 import Foundation
 
-struct Downloader {
-  func download(path: String, to destination: String, done: @escaping () -> ()) {
+public struct Downloader {
+  static public func download(path: String, to destination: String, done: @escaping () -> ()) {
     let filename = path
       .characters
       .split(separator: "/")
@@ -10,7 +10,7 @@ struct Downloader {
       .last!
     // let path =
     let targetPath = "file://\(destination)/\(filename)"
-    
+
     let destination: DownloadRequest.DownloadFileDestination = { _, _ in
       (URL(string: targetPath)!, [.removePreviousFile, .createIntermediateDirectories])
     }

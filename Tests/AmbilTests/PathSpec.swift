@@ -1,5 +1,5 @@
 import Spectre
-@testable import Ambil
+@testable import AmbilUtils
 
 public func pathSpec() {
   describe(".isRelativeFromHomeDirectory") { _ in

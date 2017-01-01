@@ -1,5 +1,6 @@
 import Commander
 import Foundation
+import AmbilUtils
 
 //let main = command {  (source: String) in
 //  let downloader = Downloader()
@@ -12,10 +13,9 @@ import Foundation
 
 let sema = DispatchSemaphore(value: 0)
 let source = "https://www.google.co.id/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png"
-let downloader = Downloader()
 print("Downloading \(source)...")
 
-downloader.download(path: source, to: "/Users/sendyhalim/development/code/projects/ambil") {
+Downloader.download(path: source, to: "/Users/sendyhalim/development/code/projects/ambil") {
   sema.signal()
 }
 
