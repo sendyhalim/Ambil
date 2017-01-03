@@ -8,7 +8,8 @@ let package = Package(
   ],
   dependencies: [
     .Package(url: "https://github.com/Alamofire/Alamofire", majorVersion: 4),
-    .Package(url: "https://github.com/kylef/Commander", majorVersion: 0)
+    .Package(url: "https://github.com/kylef/Commander", majorVersion: 0),
+    .Package(url: "https://github.com/thoughtbot/Argo", majorVersion: 4)
   ]
 );
 
