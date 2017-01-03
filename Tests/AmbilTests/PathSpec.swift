@@ -39,31 +39,25 @@ public func pathSpec() {
     }
   }
 
-  describe(".absolute") { _ in
-    describe("when given relative path") { test in
-      test.it("should return the absolute path") {
-        let path = Path("../")
-        let expected = NSString(string: "\(fileManager.currentDirectoryPath)/..").standardizingPath
+  describe(".absolute") { test in
+    test.it("should return the absolute path when given relative path") {
+      let path = Path("../")
+      let expected = NSString(string: "\(fileManager.currentDirectoryPath)/..").standardizingPath
 
-        try expect(path.absolute) == expected
-      }
+      try expect(path.absolute) == expected
     }
 
-    describe("when given path relative with home directory") { test in
-      test.it("should return the absolute path") {
-        let path = Path("~/test")
-        let expected = NSString(string: "~/test").abbreviatingWithTildeInPath
+    test.it("should return the absolute path when given path is relative with home directory") {
+      let path = Path("~/test")
+      let expected = NSString(string: "~/test").abbreviatingWithTildeInPath
 
-        try expect(path.absolute) == expected
-      }
+      try expect(path.absolute) == expected
     }
 
-    describe("when given absolute path") { test in
-      test.it("should not modify the absollute path") {
-        let path = Path("/iron/man")
+    test.it("should not modify the absollute path when given absolute path") {
+      let path = Path("/iron/man")
 
-        try expect(path.absolute) == "/iron/man"
-      }
+      try expect(path.absolute) == "/iron/man"
     }
   }
 }
