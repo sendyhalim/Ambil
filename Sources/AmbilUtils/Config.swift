@@ -30,7 +30,7 @@ struct GenericConfig {
 extension GenericConfig: Decodable {
   static func decode(_ json: JSON) -> Decoded<GenericConfig> {
     return curry(GenericConfig.init)
-      <^> (json <| "directory")
+      <^> json <| "directory"
       <*> json <|? "extension"
       <*> json <|? "pattern"
   }

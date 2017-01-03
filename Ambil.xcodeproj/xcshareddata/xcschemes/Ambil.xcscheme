@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_105"
+               BlueprintIdentifier = "OBJ_107"
                BuildableName = "Alamofire.framework"
                BlueprintName = "Alamofire"
                ReferencedContainer = "container:Ambil.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_128"
+               BlueprintIdentifier = "OBJ_130"
                BuildableName = "Spectre.framework"
                BlueprintName = "Spectre"
                ReferencedContainer = "container:Ambil.xcodeproj">
@@ -42,7 +42,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_142"
+               BlueprintIdentifier = "OBJ_144"
                BuildableName = "Commander.framework"
                BlueprintName = "Commander"
                ReferencedContainer = "container:Ambil.xcodeproj">
@@ -56,7 +56,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_159"
+               BlueprintIdentifier = "OBJ_161"
                BuildableName = "Runes.framework"
                BlueprintName = "Runes"
                ReferencedContainer = "container:Ambil.xcodeproj">
@@ -70,7 +70,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_168"
+               BlueprintIdentifier = "OBJ_170"
                BuildableName = "Argo.framework"
                BlueprintName = "Argo"
                ReferencedContainer = "container:Ambil.xcodeproj">
@@ -84,7 +84,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_195"
+               BlueprintIdentifier = "OBJ_197"
                BuildableName = "Curry.framework"
                BlueprintName = "Curry"
                ReferencedContainer = "container:Ambil.xcodeproj">
@@ -98,7 +98,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_202"
+               BlueprintIdentifier = "OBJ_204"
                BuildableName = "Regex.framework"
                BlueprintName = "Regex"
                ReferencedContainer = "container:Ambil.xcodeproj">
@@ -112,7 +112,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_215"
+               BlueprintIdentifier = "OBJ_217"
                BuildableName = "Ambil"
                BlueprintName = "Ambil"
                ReferencedContainer = "container:Ambil.xcodeproj">
@@ -126,7 +126,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_238"
+               BlueprintIdentifier = "OBJ_240"
                BuildableName = "AmbilUtils.framework"
                BlueprintName = "AmbilUtils"
                ReferencedContainer = "container:Ambil.xcodeproj">
@@ -144,7 +144,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_261"
+               BlueprintIdentifier = "OBJ_264"
                BuildableName = "AmbilTests.xctest"
                BlueprintName = "AmbilTests"
                ReferencedContainer = "container:Ambil.xcodeproj">
@@ -167,7 +167,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_105"
+            BlueprintIdentifier = "OBJ_107"
             BuildableName = "Alamofire.framework"
             BlueprintName = "Alamofire"
             ReferencedContainer = "container:Ambil.xcodeproj">
