@@ -13,8 +13,8 @@ enum ConfigLoaderError: Error {
   case decodeJsonError
 }
 
-struct ConfigLoader {
-  static func loadConfig(withJSONString jsonString: String) throws -> Array<Config> {
+public struct ConfigLoader {
+  static public func loadConfig(withJSONString jsonString: String) throws -> Array<Config> {
     let jsonData: Any = try! JSONSerialization.jsonObject(
       with: jsonString.data(using: String.Encoding.utf8)!,
       options: []

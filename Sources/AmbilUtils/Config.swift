@@ -3,7 +3,7 @@ import Argo
 import Curry
 import Runes
 
-protocol Config {
+public protocol Config {
   var destinationDirectory: String { get }
   
   ///  Check if the given download url and destination should be used with this config

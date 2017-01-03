@@ -49,7 +49,7 @@ public func pathSpec() {
 
     test.it("should return the absolute path when given path is relative with home directory") {
       let path = Path("~/test")
-      let expected = NSString(string: "~/test").abbreviatingWithTildeInPath
+      let expected = NSString(string: "~/test").standardizingPath
 
       try expect(path.absolute) == expected
     }
@@ -58,6 +58,13 @@ public func pathSpec() {
       let path = Path("/iron/man")
 
       try expect(path.absolute) == "/iron/man"
+    }
+
+    test.it("should return the absolute path of hidden file in home directory") {
+      let path = Path("~/.hidden")
+      let expected = NSString(string: "~/.hidden").standardizingPath
+
+      try expect(path.absolute) == expected
     }
   }
 }

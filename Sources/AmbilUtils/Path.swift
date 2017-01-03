@@ -35,7 +35,7 @@ public extension Path {
     if isRelativeFromHomeDirectory {
       let str = NSString(string: path)
 
-      return str.abbreviatingWithTildeInPath
+      return str.standardizingPath
     } else if isRelativeFromCurrentDirectory {
       let str =  NSString(string: "\(currentDirectory)/\(path)")
 
