@@ -18,12 +18,14 @@ public struct Downloader {
     }
 
     let queue = DispatchQueue.global(qos: .default)
+
     Alamofire
       .download(downloadUrl, to: destination)
       .downloadProgress(queue: queue) { progress in
-        let progressString = String(format: "\rDownload progress %.2f%", progress.fractionCompleted * 100)
+        let progressString = String(format: "\rDownload progress %.2f%%", progress.fractionCompleted * 100)
         
         print(progressString, terminator: "")
+        fflush(__stdoutp)
       }
       .response(queue: queue) { _ in
         print("") // Print newline after download is completed
