@@ -29,7 +29,8 @@ let main = command(
     _destination = _destination.isEmpty ? "~/Downloads" : _destination
   }
 
-  Downloader.download(downloadUrl: source, to: _destination) {
+  Downloader.download(downloadUrl: source, to: _destination) { destination in
+    print("Download destination: \(destination)")
     sema.signal()
   }
 

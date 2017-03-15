@@ -2,14 +2,14 @@ import Alamofire
 import Foundation
 
 public struct Downloader {
-  static public func download(downloadUrl: String, to destination: String, done: @escaping () -> ()) {
+  static public func download(downloadUrl: String, to destinationDirectory: String, done: @escaping (String) -> ()) {
     let filename = downloadUrl
       .characters
       .split(separator: "/")
       .map(String.init)
       .last!
 
-    let path = Path("\(destination)/\(filename)")
+    let path = Path("\(destinationDirectory)/\(filename)")
     
     let targetPath = "file://\(path.absolute)"
 
@@ -29,7 +29,7 @@ public struct Downloader {
       }
       .response(queue: queue) { _ in
         print("") // Print newline after download is completed
-        done()
+        done(path.absolute)
       }
   }
 }
