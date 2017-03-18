@@ -24,7 +24,7 @@ vim ~/.ambil
 
 This configuration make ambil to put (you can use regex too :beers:!)
 - every file that has extension `.mp3` in `~/Downloads/music`
-- every file that has extension `.jpg` in `~/Downloads/pictures`
+- every file that has extension `.jpg` or `.png` in `~/Downloads/pictures`
 
 ```
 [
@@ -33,8 +33,15 @@ This configuration make ambil to put (you can use regex too :beers:!)
     "directory": "~/Downloads/music"
   },
   {
-    "extension": ".jpg",
+    "pattern": "(.jpg|.png)",
     "directory": "~/Downloads/pictures"
   }
 ]
+```
+
+
+## Testing
+
+```
+make test
 ```
