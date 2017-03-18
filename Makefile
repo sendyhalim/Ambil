@@ -7,4 +7,7 @@ install: build
 regenerate-xcode:
 	swift package generate-xcodeproj
 
-.PHONY: build install regenerate-xcode
+test:
+	swift test
+
+.PHONY: build install regenerate-xcode test
