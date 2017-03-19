@@ -1,8 +1,8 @@
 # Ambil
-Ambil is simple downloader tool with runtime configuration, similar to wget but simpler and easier to use.
-One notable difference is the ability to automatically put downloaded file to a directory
-based on config. For example you can instruct `Ambil` to always put (after download is complete) mp3 files
-to `~/mp3` directory.
+`Ambil` is a simple downloader tool with runtime configuration, similar to wget but simpler and easier to use.
+One nice feature of `Ambil` is that you can configure where `Ambil` should put your downloaded file based on
+file extension, filename patterns and many more (coming soon~)! For example you can instruct `Ambil` to
+always put (after download is complete) mp3 files to `~/Downloads/mp3` directory.
 
 ## Installation
 ```
@@ -22,7 +22,7 @@ ambil https://raw.githubusercontent.com/sendyhalim/Yomu/master/Resources/screens
 vim ~/.ambil
 ```
 
-This configuration make ambil to put (you can use regex too :beers:!)
+This configuration make `Ambil` to put (you can use regex too :beers:!)
 - every file that has extension `.mp3` in `~/Downloads/music`
 - every file that has extension `.jpg` or `.png` in `~/Downloads/pictures`
 
@@ -41,7 +41,6 @@ This configuration make ambil to put (you can use regex too :beers:!)
 
 
 ## Testing
-
 ```
 make test
 ```
