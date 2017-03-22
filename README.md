@@ -4,6 +4,8 @@ One nice feature of `Ambil` is that you can configure where `Ambil` should put y
 file extension, filename patterns and many more (coming soon~)! For example you can instruct `Ambil` to
 always put (after download is complete) mp3 files to `~/Downloads/mp3` directory.
 
+[![Build Status](https://travis-ci.org/sendyhalim/Ambil.svg?branch=master)](https://travis-ci.org/sendyhalim/Ambil)
+
 ## Installation
 ```
 git clone https://github.com/sendyhalim/Yomu
