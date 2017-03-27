@@ -11,9 +11,7 @@ let package = Package(
     .Package(url: "https://github.com/kylef/Commander", majorVersion: 0),
     .Package(url: "https://github.com/thoughtbot/Argo", majorVersion: 4),
     .Package(url: "https://github.com/thoughtbot/Curry", majorVersion: 3),
-    .Package(url: "https://github.com/sharplet/Regex", majorVersion: 0),
-    .Package(url: "https://github.com/Quick/Quick", majorVersion: 1, minor: 1),
-    .Package(url: "https://github.com/Quick/Nimble", majorVersion: 6)
+    .Package(url: "https://github.com/sharplet/Regex", majorVersion: 0)
   ]
 );
 
